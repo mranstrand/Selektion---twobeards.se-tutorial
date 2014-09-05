@@ -3,9 +3,14 @@
         <script>
             // Fråga efter lösen
             var pass = prompt("Skriv lösen:");
+            
             // Selektion med if-sats
             if(pass == "ada"){
                 alert("Lösenordet stämmer");
+            }else if(pass == "admin"){
+                alert("Du är inloggad som administratör.");
+            }else if(pass == "admin2"){
+                alert("Du är inloggad som administratör2.");
             }else{
                 alert("Fel lösenord");
             }
