@@ -7,8 +7,10 @@
             // Selektion med if-sats
             if(age < 7){
                 film = "Pettson och Findus";
-            }else{
+            }else if(age < 15){
                 film = "Frost";
+            }else{
+                film = "Sjunde inseglet";
             }
             
             alert("Filmen vi valt till dig är: " + film);
