@@ -1,20 +1,17 @@
 <html>
     <head>
         <script>
-            // Fråga efter lösen
-            var pass = prompt("Skriv lösen:");
+            // Fråga efter ålder
+            var age = prompt("Skriv ålder:"), film;
             
             // Selektion med if-sats
-            if(pass == "ada"){
-                alert("Lösenordet stämmer");
-            }else if(pass == "admin"){
-                alert("Du är inloggad som administratör.");
-            }else if(pass == "admin2"){
-                alert("Du är inloggad som administratör2.");
+            if(age < 7){
+                film = "Pettson och Findus";
             }else{
-                alert("Fel lösenord");
+                film = "Frost";
             }
             
+            alert("Filmen vi valt till dig är: " + film);
         </script>
     </head>
     <body>
